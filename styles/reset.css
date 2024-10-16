@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #a0a0a0;
+  line-height: 1.5;
+}
+
+/* establece las medias */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* saca las tipografias de los forms */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* evita el overflow de los textos */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* evita apilar automaticamente */
+#root,
+#__next {
+  isolation: isolate;
+}

@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <title>WEB DEB</title>
+  </head>
+  <body>
+    <section class="header">
+      <img
+        class="imageProfile"
+        src="/assets/image/FOTO.jpg"
+        alt="foto de perfil"
+      />
+      <div class="title-profile">
+        <h1 class="name">Daniel Esteban Bustos</h1>
+        <span class="my-web">Mi pagina web</span>
+      </div>
+    </section>
+    <section class="about">
+      <span class="about-me"> Sobre Mi </span>
+      <p class="description">
+        Soy un Developer Full Stack, tecnico en informatica y administrativa,
+        tambien soy autodidacta con todo relacionado a las tecnologias y mis
+        hobbies son hacer ejercicio, ver anime, andar en bicicleta, jugar en la
+        pc a juegos online y pasar tiempo con mi familia.
+      </p>
+    </section>
+    <section class="technologies">
+      <span class="technologies-title">Mis tecnologias favoritas</span>
+      <div class="technologies-container">
+        <div class="card-container">
+          <p>HTML</p>
+          <img class="icon" src="/assets/image/icons8-html-240.png" alt="" />
+        </div>
+        <div class="card-container">
+          <p>CSS</p>
+          <img class="icon" src="/assets/image/icons8-css-240.png" alt="" />
+        </div>
+        <div class="card-container">
+          <p>JavaScript</p>
+          <img
+            class="icon"
+            src="/assets/image/icons8-javascript-240.png"
+            alt=""
+          />
+        </div>
+        <div class="card-container">
+          <p>React</p>
+          <img class="icon" src="/assets/image/icons8-react-240.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="activities">
+      <span class="activities-title">Mis actividades favoritas</span>
+      <form action="" class="activities-form">
+        <div class="activities-form-div">
+          <label class="activities-form-label">Titulo</label>
+          <input
+            class="activities-form-input"
+            type="text"
+            placeholder="Escribe el titulo"
+          />
+        </div>
+        <div class="activities-form-div">
+          <label class="activities-form-label">Descripción</label>
+          <input
+            class="activities-form-input"
+            type="text"
+            placeholder="Escribe la descripción"
+          />
+        </div>
+        <div class="activities-form-div">
+          <label class="activities-form-label">URL de la imagen</label>
+          <input
+            class="activities-form-input"
+            type="text"
+            placeholder="Ingresa la URL"
+          />
+        </div>
+        <button class="activities-form-button">Agregar</button>
+      </form>
+    </section>
+    <section class="container-card-activities">
+      <div class="card-activities">soy un contenedor</div>
+    </section>
+  </body>
 </html>
