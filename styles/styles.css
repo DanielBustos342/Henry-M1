@@ -2,7 +2,7 @@
 
 .header {
   display: flex;
-  background-color: #b7b7b7;
+  background-color: #888888;
   width: 100%;
   height: 30vh;
   margin-bottom: 20px;
@@ -115,6 +115,12 @@
   cursor: pointer;
 }
 
+.card-container:hover {
+  background-color: #a0a0a0;
+  box-shadow: 0 0 1px 1px #fff;
+  transition: 0.2s;
+}
+
 /*! section activities */
 
 .activities {
@@ -183,6 +189,13 @@
   font-size: 30px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.activities-form-button:hover {
+  background-color: #1b1b1b;
+  box-shadow: 0 0 1px 2px #fff;
+  transition: 0.2s;
+  color: #fff;
 }
 
 .container-card-activities {
